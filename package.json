@@ -1,0 +1,40 @@
+{
+  "name": "node-hapi",
+  "version": "1.0.0",
+  "description": "learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjorn/node-hapi.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "anjorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjorn/node-hapi/issues"
+  },
+  "homepage": "https://github.com/anjorn/node-hapi#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "env2": "^2.2.2",
+    "hapi": "^16.7.0",
+    "hapi-auth-jwt2": "^7.4.1",
+    "hapi-pagination": "^1.22.0",
+    "hapi-swagger": "^7.10.0",
+    "inert": "^4.2.1",
+    "joi": "^13.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^1.6.5",
+    "package": "^1.0.1",
+    "sequelize": "^5.7.0",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.4.0"
+  }
+}
